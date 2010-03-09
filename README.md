@@ -58,5 +58,5 @@ The latest Git checkout has been tested on the following platforms:
 If you don't develop on Windows: StarCraft is an old game and runs
 fine in a virtual machine like [VirtualBox](http://www.virtualbox.org/).
 
-I have not been to run StarCraft with the BWAPI from Chaoslauncher
-under Wine.
+I have not been able to run StarCraft with the BWAPI from
+Chaoslauncher under Wine.
