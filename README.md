@@ -5,8 +5,7 @@
 ### IMPORTANT!
 
 This is a first upload to GitHub mainly for my own convenience.  It
-isn't really ready for public consumption yet as it's only been tested
-on SBCL on Linux.
+isn't really ready for public consumption yet.
 
 (So don't go whoring karma on HN or Reddit yet!)
 
@@ -53,6 +52,7 @@ StarCraft ProxyBot.
 
 The latest Git checkout has been tested on the following platforms:
 
+* CCL 1.3-r12775M / Windows Vista SP2
 * SBCL 1.0.31.0.debian / Debian Linux 2.6.32-trunk-686
 
 If you don't develop on Windows: StarCraft is an old game and runs
