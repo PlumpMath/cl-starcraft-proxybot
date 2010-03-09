@@ -23,9 +23,3 @@
 
 (defun rl2str (reversed-list)
   (coerce (reverse reversed-list) 'string))
-
-
-(let ((time-units (/ 1.0 internal-time-units-per-second)))
-  (defun sbcl-uptime (&key (offset 0))
-    (+ (* (get-internal-real-time) time-units)
-       offset)))
