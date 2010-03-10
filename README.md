@@ -2,18 +2,16 @@
 
 ## A StarCraft ProxyBot client for Common Lisp
 
-### IMPORTANT!
+### Notes
 
-This is a first upload to GitHub mainly for my own convenience.  It
-isn't really ready for public consumption yet.
-
-(So don't go whoring karma on HN or Reddit yet!)
+* This project is still in its early stages.
+* [StarCraft AI Competition](http://eis.ucsc.edu/StarCraftAICompetition)
 
 
 ### Introduction
 
 This is a client for [ProxyBot](http://code.google.com/p/bwapi-proxy/)
-(v2.6.1 as of this writing), which is project to make the
+(v2.6.1 as of this writing), which is a project to make the
 [BWAPI](http://code.google.com/p/bwapi/) for StarCraft available to
 other languages than C++.
 
