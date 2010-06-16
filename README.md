@@ -2,6 +2,13 @@
 
 ## A StarCraft ProxyBot client for Common Lisp
 
+**status:** stalled
+
+I started this project intending to participate in the
+[StarCraft AI Competition](http://eis.ucsc.edu/StarCraftAICompetition)
+but I quickly gave other projects higher priority.
+
+
 ### Notes
 
 * This project is still in its early stages.
