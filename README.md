@@ -52,6 +52,30 @@ have been installed correctly you should be able to run
 examples/fatalist.sh which will wait for a connection from the
 StarCraft ProxyBot.
 
+#### Running StarCraft on a Virtual Machine
+
+If you're not developing on Windows you can run StarCraft in a virtual
+machine like VirtualBox.  You need to provide a tunnel to the
+ProxyBot, which can be done using, for example,
+[PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/).  When
+starting a PuTTY session go to Connection -> SSH -> Tunnels and add a
+tunnel to your Linux box:
+
+* Source port: 12345
+* Destination: your.machine.net:12345
+
+Initiate an SSH session to your.machine.net which is running the
+ProxyBot, start the `fatalist.sh` in the `examples` directory and then
+start StarCraft with BWAPI:
+
+1. Single Player
+2. StarCraft Brood War Expansion
+3. Choose / Make a profile
+4. Play Custom
+5. Double click on a map.
+
+The fatalist script should start playing now.
+
 
 ### Platforms
 
